@@ -4,21 +4,25 @@ The prototyping implements important features of an orthogonal frequency divisio
 
 ## Table of Contents
 
-- [Security](#security)
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-- [API](#api)
-- [Contributing](#contributing)
-- [License](#license)
+- [Hardware Description](#hardware-description)
+- [Radio Frame Format](#radio-frame-format)
+- [MIMO Channel Measurements](#mimo-channel-measurements)
+  - [Indoor-office measurements](#indoor-office-measurements)
+  - [Indoor-hall measurements](#indoor-hall-measurements)
+- [MIMO Channel Database](#mimo-channel-database)
 
-## Security
 
-### Any optional sections
+## Hardware Description
 
-## Background
+## Radio Frame Format
 
-### Any optional sections
+## MIMO Channel Measurements
+
+### Indoor-office measurements
+
+### Indoor-hall measurements
+
+## MIMO Channel Database
 
 ## Install
 
