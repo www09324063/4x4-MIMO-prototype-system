@@ -1,6 +1,8 @@
 # 4x4-MIMO-prototype-system
   This web page provides a 4x4 MIMO prototyping system to verify the effectiveness and feasibility of the proposed algorithms in practical wireless MIMO communications. 
 The prototyping implements important features of an orthogonal frequency division multiplexing (OFDM) physical layer, with third generation partnership project (3GPP) long-term evolution (LTE) time-division duplex (TDD)-like specifications.
+* **Details about of the 4x4 MIMO prototype system** and **channel meaasurements** can refer to the  [4x4-MIMO-prototype-system.pdf](https://github.com/www09324063/4x4-MIMO-prototype-system/blob/main/4x4-MIMO-prototype-system.pdf). 
+* **MIMO Channel Database** can be download from GoogleDrive [here](https://drive.google.com/file/d/1-eUTTWh8ZjWfEVatLC91Mi_Zp9zIGL76/view?usp=sharing).
 
 ## Table of Contents
 
@@ -26,7 +28,7 @@ The prototyping implements important features of an orthogonal frequency divisio
 &nbsp;&nbsp;Two USRPs equipped with 4 antennas are used as transmitters (Fig. \ref{fig:HD}), each USRP is connected with a controller computer. Note that a single USRP supports two antennas. It also supports the signal processing for two single antenna mobile stations which operate independently. Here we utilize 4  antenna to represent four independent users.
 
 
-## Radio Frame Format
+## Phsical Layer Description
 
 ## MIMO Channel Measurements
 
