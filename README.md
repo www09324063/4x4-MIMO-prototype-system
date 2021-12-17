@@ -8,7 +8,7 @@ The prototyping implements important features of an orthogonal frequency divisio
 ## Table of Contents
 
 - [Hardware Description](#hardware-description)
-- [Radio Frame Format](#radio-frame-format)
+- [Phsical Layer Description](#phsical-layer-description)
 - [MIMO Channel Measurements](#mimo-channel-measurements)
   - [Indoor-office measurements](#indoor-office-measurements)
   - [Indoor-hall measurements](#indoor-hall-measurements)
