@@ -26,7 +26,7 @@ Each USRP comprises two omni-directional antennas, two radio chains, and the res
 
 Data arriving from the 4 antennas of BS is forward to the MIMO processors, which are implemented on a independent FPGA device in the PXI-Chassis. The FPGA device comprises MIMO processing operations such as precoding and equalization, as well as channel estimation in frequency domain. 
 
-Two USRPs equipped with 4 antennas are used as transmitters, each USRP is connected with a controller computer. Note that a single USRP supports two antennas. It also supports the signal processing for two single antenna mobile stations which operate independently. Here we utilize 4  antenna to represent four independent users.
+Two USRPs equipped with 4 antennas are used as transmitters, each USRP is connected with a controller computer. Note that a single USRP supports two antennas. It also supports the signal processing for two single antenna mobile stations which operate independently. Here we utilize 4 antennas to represent four independent users.
 
 
 ## Phsical Layer Description
