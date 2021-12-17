@@ -19,7 +19,9 @@ The prototyping implements important features of an orthogonal frequency divisio
 <div align=center>
   <img src="https://github.com/www09324063/4x4-MIMO-prototype-system/blob/main/imag/hardware.jpg" width="50%" />
 </div>
-
+<div align=center>
+Fig. 1. System hardware equipment overview.
+</div>
 To measure the channel characteristics of the MIMO channels,  4 universal software radio peripherals (USRP) are used to form a 4x4 MIMO prototyping system, which operating at 3.5GHz microwave band.  
 
 Each USRP comprises two omni-directional antennas, two radio chains, and the respective ADC/DAC modules. It implements OFDM functionality such as (I)FFT  as well as digital front end functionality such as re-sampling on an FPGA. We use 4 antenna elements (2 USRPs) as the RX, thereby emulating a MIMO BS.  
@@ -36,11 +38,16 @@ The prototyping system implements parts of an LTE-like physical layer in TDD mod
 <div align=center>
   <img src="https://github.com/www09324063/4x4-MIMO-prototype-system/blob/main/imag/RadioFrame.jpg" width="50%" />
 </div>
-
+<div align=center>
+Fig. 2. Radio Frame Structure.
+</div>
 This MIMO system uses a standard 3GPP LTE radio frame structure as shown in Figure \ref{fig:RF}. Radio frames of 10 ms duration are sub-divided into 10 subframes of 1 ms duration each. Each subframe contains two slots of 0.5 ms duration. A slot is further split into 7 OFDM symbols.
 ###  Resource Block
 <div align=center>
   <img src="https://github.com/www09324063/4x4-MIMO-prototype-system/blob/main/imag/Resource%20Block.jpg" width="80%" />
+</div>
+<div align=center>
+Fig. 3. Physical Resource Block Illustration.
 </div>
 This OFDM system utilize a total of 1200 subcarriers with the bandwidth 18MHz, of which are divided into 100 resource blocks (RBs), i.e., each RB contains 12 OFDM subcarriers, and the bandwidth of each subcarrier is 15KHz.
 
@@ -54,6 +61,7 @@ Each OFDM symbol carries a single signal type as listed below:
 * Physical Uplink Shared Channel (PUSCH): The PUSCH is symmetric to the PDSCH.
 * Guard: One OFDM symbol including cyclic prefix (CP) where nothing is transmitted in uplink or downlink direction.
 Finally, we summarize the system main parameters as follows:
+
 | **Parameter**     | **Value**    | 
 | :-------------: | :-------------: |
 | Center Frequency [GHz]      | 3.5     | 
@@ -71,6 +79,9 @@ In the OTA test, we conduct two scenarios of indoor channel measurements, indoor
 <div align=center>
   <img src="https://github.com/www09324063/4x4-MIMO-prototype-system/blob/main/imag/scenario.jpg" width="80%" />
 </div>
+<div align=center>
+Fig. 4. Illustration of two different measurement: the sky blue edges indicate the door and windows.
+</div>
 
 ### Indoor-office measurements
 The indoor-office measurements are conducted at a typical office room, where a wealth of scatterers and reflectors exists. 
@@ -86,5 +97,5 @@ For the indoor-hall measurements shown in (b), we also selected the base station
 Four mobile antennas remain stationary or slow-moving at a uniform speed of $1m/s$ in the front semicircle of the base station, which have LOS paths available to the base station.
 
 ## MIMO Channel Database
-**MIMO Channel Database** can be download from GoogleDrive [here](https://drive.google.com/file/d/1-eUTTWh8ZjWfEVatLC91Mi_Zp9zIGL76/view?usp=sharing).
+MIMO Channel Database can be download from GoogleDrive [here](https://drive.google.com/file/d/1-eUTTWh8ZjWfEVatLC91Mi_Zp9zIGL76/view?usp=sharing).
 
