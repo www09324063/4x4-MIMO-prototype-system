@@ -53,7 +53,6 @@ Each OFDM symbol carries a single signal type as listed below:
   * Modulation in accordance to the LTE specifications. 
 * Physical Uplink Shared Channel (PUSCH): The PUSCH is symmetric to the PDSCH.
 * Guard: One OFDM symbol including cyclic prefix (CP) where nothing is transmitted in uplink or downlink direction.
-* 
 Finally, we summarize the system main parameters as follows:
 | **Parameter**     | **Value**    | 
 | :-------------: | :-------------: |
