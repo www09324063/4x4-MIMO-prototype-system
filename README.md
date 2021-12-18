@@ -42,7 +42,9 @@ The prototyping system implements parts of an LTE-like physical layer in TDD mod
 Fig. 2. Radio Frame Structure.
 </div>
 This MIMO system uses a standard 3GPP LTE radio frame structure as shown in Figure \ref{fig:RF}. Radio frames of 10 ms duration are sub-divided into 10 subframes of 1 ms duration each. Each subframe contains two slots of 0.5 ms duration. A slot is further split into 7 OFDM symbols.
+
 ###  Resource Block
+
 <div align=center>
   <img src="https://github.com/www09324063/4x4-MIMO-prototype-system/blob/main/imag/Resource%20Block.jpg" width="80%" />
 </div>
