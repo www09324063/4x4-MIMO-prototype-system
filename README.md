@@ -310,7 +310,8 @@ Git链接:(https://scikit-opt.github.io/scikit-opt/#/zh/README)
 2 [个人PC本地安装llamma、qwen、gemma大模型]()
 
 ### 应用开发
-### 2. 大模型学习路径
+
+# 大模型学习路径
 作者：数据慢慢跑
 链接：https://www.zhihu.com/question/1959282826319995791/answer/1986477233553036839
 
