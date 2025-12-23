@@ -102,4 +102,8 @@ Four mobile antennas remain stationary or slow-moving at a uniform speed of $1m/
 MIMO Channel Database can be download from GoogleDrive [here](https://drive.google.com/file/d/1-eUTTWh8ZjWfEVatLC91Mi_Zp9zIGL76/view?usp=sharing).
 
 ## AI Based Learning
+### 1.群体智能算法
+Git链接:(https://scikit-opt.github.io/scikit-opt/#/zh/README)
+### 1.外部大模型学习资源链接
+[Arya](https://markdown.lovejade.cn/?ref=markdown.lovejade.cn)
 
