@@ -101,3 +101,5 @@ Four mobile antennas remain stationary or slow-moving at a uniform speed of $1m/
 ## MIMO Channel Database
 MIMO Channel Database can be download from GoogleDrive [here](https://drive.google.com/file/d/1-eUTTWh8ZjWfEVatLC91Mi_Zp9zIGL76/view?usp=sharing).
 
+## AI Based Learning
+
